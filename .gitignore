@@ -1,0 +1,309 @@
+# ===================================
+# Portfolio Tracker - .gitignore
+# ===================================
+
+# ===================================
+# Environment & Secrets
+# ===================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+.env.*
+
+# API Keys and Credentials
+**/secrets/
+**/*.key
+**/*.pem
+**/*.p12
+
+# ===================================
+# Database Files
+# ===================================
+*.db
+*.sqlite
+*.sqlite3
+portfolio.db
+**/*.db-journal
+**/*.db-shm
+**/*.db-wal
+
+# ===================================
+# Node.js / npm
+# ===================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Package manager locks (optional - uncomment if needed)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===================================
+# React / Frontend Build
+# ===================================
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.vite/
+
+# ===================================
+# Backend Build
+# ===================================
+backend/build/
+backend/dist/
+backend/out/
+
+# ===================================
+# Testing
+# ===================================
+coverage/
+*.lcov
+.nyc_output/
+.jest/
+*.test.js.snap
+
+# ===================================
+# IDEs & Editors
+# ===================================
+
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IntelliJ / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+.*.sw?
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# ===================================
+# Operating Systems
+# ===================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===================================
+# Logs
+# ===================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ===================================
+# Temporary Files
+# ===================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+
+# ===================================
+# Excel / Data Files (Sensitive)
+# ===================================
+# Uncomment if you want to exclude your actual portfolio data
+*.xlsx
+*.xls
+*.csv
+data/
+excel/
+
+# But keep example files
+!example.xlsx
+!sample.xlsx
+!template.xlsx
+
+# ===================================
+# Build & Deployment
+# ===================================
+.cache/
+.next/
+.nuxt/
+.docusaurus/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.vercel/
+.netlify/
+
+# ===================================
+# Dependencies & Package Management
+# ===================================
+jspm_packages/
+bower_components/
+web_modules/
+
+# ===================================
+# TypeScript
+# ===================================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ===================================
+# Optional npm cache directory
+# ===================================
+.npm
+
+# Optional eslint cache
+# ===================================
+.eslintcache
+
+# Optional stylelint cache
+# ===================================
+.stylelintcache
+
+# ===================================
+# Microbundle cache
+# ===================================
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# ===================================
+# Optional REPL history
+# ===================================
+.node_repl_history
+
+# ===================================
+# Output of 'npm pack'
+# ===================================
+*.tgz
+
+# ===================================
+# Yarn
+# ===================================
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ===================================
+# Webpack
+# ===================================
+.webpack/
+
+# ===================================
+# Parcel
+# ===================================
+.parcel-cache/
+
+# ===================================
+# ESLint & Prettier
+# ===================================
+.eslintcache
+.prettierignore
+
+# ===================================
+# Documentation
+# ===================================
+# Uncomment if you want to exclude generated docs
+# docs/_build/
+# docs/.doctrees/
+
+# ===================================
+# Claude Code / AI Tools
+# ===================================
+.claude/
+.cursor/
+.ai/
+
+# ===================================
+# Custom Project Specific
+# ===================================
+# Add any custom files or folders specific to your project
+uploads/
+exports/
+reports/
+
+# Keep important documentation
+!README.md
+!CALCULATION_UPDATES.md
+!FRONTEND_COMPLETE.md
+!LICENSE
+!.gitignore
