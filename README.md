@@ -13,14 +13,14 @@ A full-stack web application to track your investment portfolio, calculate net w
 - 🔄 **Auto-Update**: Automatically refresh exchange rates and stock prices
 
 ## Screenshots
-! [Dashboard best performing investments](screens/1.png)
-! [Dashboard investments by type and currency](screens/2.png)
-! [Dashboard future growth forcast](screens/3.png)
-! [Dashboard side menu](screens/4.png)
-! [All investments](screens/5.png)
-! [All returns](screens/6.png)
-! [AI-Powered Insights](screens/7.png)
-! [Settings](screens/8.png)
+![Dashboard best performing investments](screens/1.png)
+![Dashboard investments by type and currency](screens/2.png)
+![Dashboard future growth forcast](screens/3.png)
+![Dashboard side menu](screens/4.png)
+![All investments](screens/5.png)
+![All returns](screens/6.png)
+![AI-Powered Insights](screens/7.png)
+![Settings](screens/8.png)
 
 ## Tech Stack
 
