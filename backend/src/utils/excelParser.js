@@ -188,8 +188,11 @@ export async function importExcelData(filePath, db) {
             VALUES (?, ?, ?, ?, ?, ?, ?)
         `);
 
-        // Clear existing returns (we'll reimport them)
+        // Clear existing data (complete clean slate for reimport)
+        console.log('🗑️  Clearing existing data...');
         db.prepare('DELETE FROM investment_returns').run();
+        db.prepare('DELETE FROM investments').run();
+        console.log('✅ Old data cleared successfully');
 
         const importTransaction = db.transaction(() => {
             // Insert investments
